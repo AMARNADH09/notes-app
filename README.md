@@ -37,9 +37,10 @@ Swagger Docs at **https://notes-app-g0gf.onrender.com/docs**
 | `DATABASE_URL` | Optional | Database connection string (defaults to SQLite) |
 
 ### Example
-
+```
 SECRET_KEY=mysecretkey123
-DATABASE_URL=sqlite:///./notes.db
+DATABASE_URL=sqlite:///./notes.d
+```
 ---
 
 ## Endpoints
