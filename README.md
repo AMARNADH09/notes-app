@@ -20,8 +20,11 @@ uvicorn main:app --reload
 ```
 
 API will be live at **http://localhost:8000**  
+
 Interactive docs at **http://localhost:8000/docs**
+
 Live Deployment at **https://notes-app-g0gf.onrender.com**
+
 Swagger Docs at **https://notes-app-g0gf.onrender.com/docs**
 
 ---
