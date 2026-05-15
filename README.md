@@ -31,11 +31,15 @@ Swagger Docs at **https://notes-app-g0gf.onrender.com/docs**
 
 ## Environment Variables
 
-| Variable | Default | Description |
-|----------|---------|-------------|
-| `SECRET_KEY` | `change-me-in-production-...` | JWT signing secret – **must change in prod** |
-| `DATABASE_URL` | `sqlite:///./notes.db` | Any SQLAlchemy-compatible URL |
+| Variable | Required | Description |
+|---|---|---|
+| `SECRET_KEY` | Yes | Secret key used for JWT token signing |
+| `DATABASE_URL` | Optional | Database connection string (defaults to SQLite) |
 
+### Example
+
+SECRET_KEY=mysecretkey123
+DATABASE_URL=sqlite:///./notes.db
 ---
 
 ## Endpoints
