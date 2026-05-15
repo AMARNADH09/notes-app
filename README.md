@@ -39,7 +39,7 @@ Swagger Docs at **https://notes-app-g0gf.onrender.com/docs**
 ### Example
 ```
 SECRET_KEY=mysecretkey123
-DATABASE_URL=sqlite:///./notes.d
+DATABASE_URL=sqlite:///./notes.db
 ```
 ---
 
