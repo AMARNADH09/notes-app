@@ -34,8 +34,8 @@ Interactive docs at **http://localhost:8000/docs**
 
 | Method | Path | Auth | Description |
 |--------|------|------|-------------|
-| POST | `/register` | ❌ | Create account |
-| POST | `/login` | ❌ | Get JWT token |
+| POST | `/register` | ✅ | Create account |
+| POST | `/login` | ✅ | Get JWT token |
 | GET | `/notes` | ✅ | List all notes (paginated) |
 | POST | `/notes` | ✅ | Create note |
 | GET | `/notes/{id}` | ✅ | Get specific note |
@@ -44,8 +44,8 @@ Interactive docs at **http://localhost:8000/docs**
 | POST | `/notes/{id}/share` | ✅ | Share note with another user |
 | GET | `/notes/tags/{tag}` | ✅ | **Custom** – filter by tag |
 | GET | `/search?q=keyword` | ✅ | Full-text search |
-| GET | `/about` | ❌ | App info |
-| GET | `/openapi.json` | ❌ | OpenAPI spec |
+| GET | `/about` | ✅ | App info |
+| GET | `/openapi.json` | ✅ | OpenAPI spec |
 
 ---
 
